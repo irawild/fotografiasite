@@ -496,10 +496,10 @@ iframe{
 	background-image:url("img/mountainsdusk.jpg");
 }
 .bg-mountainsdusk{
-	background-image:url('img/mountainsdusk.jpg');
+	background-image:url("img/mountainsdusk.jpg");
 }
 .bg-camera-overlay{
-	background-image:url('img/camera-overlay.png');
+	background-image:url("img/camera-overlay.png");
 }
 
 
