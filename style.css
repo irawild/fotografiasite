@@ -59,6 +59,31 @@ button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari 
 }
 
 
+/* Group Styles */
+
+.bloc-group{
+	width:100%;
+	display:table;
+	table-layout: fixed;
+}
+.bloc-group .bloc{
+	display: table-cell;
+	vertical-align: top;
+}
+.bloc-tile-2{
+	width:50%;
+}
+.bloc-tile-3{
+	width:33.33333333%;
+}
+.bloc-tile-4{
+	width:25%;
+}
+.bloc-tile-2 .container, .bloc-tile-3 .container, .bloc-tile-4 .container{
+	width:100%;
+}
+
+
 /* Background Effects */
 
 .b-parallax{
@@ -394,6 +419,13 @@ button{
 }
 
 
+/* = Forms
+-------------------------------------------------------------- */
+
+.form-control{
+	border-color:rgba(0,0,0,.1);
+	box-shadow:none;
+}
 
 /* iFrame */
 
@@ -436,6 +468,12 @@ iframe{
 .ltc-white:hover{
 	color:#ffffff!important;
 }
+/* Icon colour styles */
+
+.icon-black{
+	color:#000000!important;
+	border-color:#000000!important;
+}
 
 /* Bloc image backgrounds */
 
@@ -456,6 +494,12 @@ iframe{
 }
 .bg-mountainsdusk{
 	background-image:url("img/mountainsdusk.jpg");
+}
+.bg-mountainsdusk{
+	background-image:url('img/mountainsdusk.jpg');
+}
+.bg-camera-overlay{
+	background-image:url('img/camera-overlay.png');
 }
 
 
